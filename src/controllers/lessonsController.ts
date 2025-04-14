@@ -4,7 +4,6 @@ import { fetchLessons } from '../services/lessonsService';
 export const getLessons = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const filters = req.query;
-    // Передаем валидированные параметры (обратите внимание, что валидация уже произведена мидлварой)
     const result = await fetchLessons({
       date: filters.date as string | undefined,
       status: filters.status !== undefined ? Number(filters.status) : undefined,
