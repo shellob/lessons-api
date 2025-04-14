@@ -1,4 +1,3 @@
-// src/swagger.ts
 import { Express } from 'express';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJsdoc from 'swagger-jsdoc'
