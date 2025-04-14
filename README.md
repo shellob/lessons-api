@@ -16,7 +16,7 @@ REST API для получения списка занятий с возможн
 - Knex
 - Docker / Docker Compose
 - Swagger (OpenAPI)
-- Jest / Supertest (опционально)
+- Jest / Supertest 
 
 ---
 
@@ -25,7 +25,7 @@ REST API для получения списка занятий с возможн
 ### 1. Клонирование
 
 ```bash
-git clone https://github.com/your-username/lessons-api.git
+git clone https://github.com/shellob/lessons-api.git
 cd lessons-api
 ```
 
